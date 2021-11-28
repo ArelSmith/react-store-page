@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Poppins&family=Viga&display=swap");
+
+html,
+body {
+    scroll-behavior: smooth;
+    background: #f6f8fd;
+}
+
+.jumbotron img {
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+    width: 25rem;
+}
+
+.benefits h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    margin-top: 250px;
+}
+
+.navbar-brand {
+    font-family: "Viga", sans-serif;
+}
+
+.benefits-box {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.benefits-title {
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.benefits-paragraph {
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.bestprods h3 {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+}
+
+.bestprods h5 {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    margin-top: 100px;
+    color: rgb(2, 192, 2);
+}
+
+.prods-box {
+    background-color: rgb(61, 61, 255);
+    padding: 30px;
+    border-radius: 10px;
+    color: white;
+}
+
+.prods-box:before {
+    content: "KEYBOARD";
+    font-size: 50px;
+    font-weight: bold;
+    position: absolute;
+    opacity: 0.3;
+    margin-top: 20px;
+    transition: 500ms;
+}
+
+/* .prods-box:hover::before {
+    opacity: 0.3;
+} */
+
+@media (min-width: 920px) {
+    .nav-link {
+        margin-left: 15px;
+        font-weight: bold;
+    }
+
+    .nav-link:hover {
+        color: rgb(71, 71, 255) !important;
+    }
+
+    .jumbotron .rounded-pill {
+        width: 10%;
+    }
+
+    .jumbotron img {
+        position: absolute;
+        top: 126px;
+        right: 10px;
+        width: 30rem;
+    }
+}
